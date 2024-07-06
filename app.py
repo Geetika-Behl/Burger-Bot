@@ -7,10 +7,15 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
+
 def get_llm_response(message):
     response = chat.send_message(message)
     print(response)
     return response.text
+
+model = genai.GenerativeModel('gemini-pro')
+chat = model.start_chat(history=[])
+
 base_info = """
 You are OrderBot, an automated service to collect orders for a Burger Raja Restaurant. \
 You first greet the customer, then collects the order, \
@@ -83,5 +88,4 @@ def bot(message, history):
 
 # create gradio instance
 demo = gr.ChatInterface(fn=bot, examples=["🍔🍟🥤", "overloaded burger", "afghani burger", "Toppings: extra cheese/ AI sauce", "Drinks: coke/sprite/bottled water", "Ice-cream: Vanilla / chocolate/strawberry"], title=response)
-# launch gradio chatbot
 demo.launch(debug=True, share=True)
