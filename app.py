@@ -5,8 +5,6 @@ import google.generativeai as genai
 load_dotenv()
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-pro')
-chat = model.start_chat(history=[])
 
 def get_llm_response(message):
     response = chat.send_message(message)
