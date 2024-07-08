@@ -4,20 +4,20 @@
 
 Welcome to the Burger Raja AI Bot repository! This project is a chatbot designed to assist with ordering burgers. The bot is built using Gradio and the Gemini API, and includes a Colab file with the code.
 
-**Features**
+<h2>Features</h2>
 
 * User-friendly Interface: Easy-to-use interface powered by Gradio.
 * Order Management: Helps users order burgers efficiently.
 * Interactive Demo:  Try the bot directly via the included Colab file.
 * Demo Video: Watch the bot in action with our demo video.
 
-**Technologies Used**
+<h2>Technologies Used</h2>
   * Python 
   * Gemini
   * Gradio
   * Colab
 
-**Prerequisites:** 
+<h2>Prerequisites:</h2>
 
 1. Python 3.7+
 2. Gradio
@@ -25,7 +25,7 @@ Welcome to the Burger Raja AI Bot repository! This project is a chatbot designed
 
 <h1> Getting Started </h1>
 
-**Installation:**
+</h2>Installation:</h2>
 1. Clone the repository:
 
    `git clone `
@@ -47,16 +47,16 @@ Welcome to the Burger Raja AI Bot repository! This project is a chatbot designed
    `echo GEMINI_API_KEY=your_api_key_here > .env`
 
 
-**Running the Bot**
+<h2> Running the Bot </h2>
 
 To start the bot, run the following command:
 
 `python app.py`
 
-**Demo Video**
+<h2> Demo Video </h2>
 Watch the demo video to see Burger bot in action:
 
-**Feedback/ Query Form**
+<h2> Feedback/ Query Form </h2>
 share any query or feedback in this google form: [Feedback Form](https://forms.gle/YE7fJTCWhvR7PWky7)
 
 
