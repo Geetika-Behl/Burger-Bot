@@ -1,4 +1,4 @@
-BurgerRaja AI Bot 🍔🤖
+<h1>BurgerRaja AI Bot 🍔🤖</h1>
 
 ![image](https://github.com/Geetika-Behl/Burger-Bot/assets/142812594/f61f63d0-d0d3-492e-b781-388fcbdcac96)
 
@@ -26,7 +26,7 @@ Installation:
 
 1. Clone the repository:
 
-  git clone https://github.com/mohitkumarr60/burger-bot.git
+  git clone https:
   cd burger-bot
 
 2. Install the required packages:
