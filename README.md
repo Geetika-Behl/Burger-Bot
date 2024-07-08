@@ -12,10 +12,11 @@ Welcome to the Burger Raja AI Bot repository! This project is a chatbot designed
 * Demo Video: Watch the bot in action with our demo video.
 
 <h2>Technologies Used</h2>
-  * Python 
-  * Gemini
-  * Gradio
-  * Colab
+
+  1. Python
+  2. Gemini
+  3. Gradio
+  4. Colab
 
 <h2>Prerequisites:</h2>
 
