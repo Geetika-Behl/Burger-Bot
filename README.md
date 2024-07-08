@@ -26,23 +26,24 @@ Welcome to the Burger Raja AI Bot repository! This project is a chatbot designed
 <h1> Getting Started </h1>
 
 </h2>Installation:</h2>
+
 1. Clone the repository:
 
    `git clone `
    
    `cd burger-bot`
 
-3. Install the required packages:
+2. Install the required packages:
    
    `pip install -r requirements.txt`
 
-4. Virtual environment:
+3. Virtual environment:
    
    `m venv env   `
    
    `venv\Scripts\activate  `
 
-5. Create a .env file in the root directory of the project and define your Gemini API key:
+4. Create a .env file in the root directory of the project and define your Gemini API key:
 
    `echo GEMINI_API_KEY=your_api_key_here > .env`
 
