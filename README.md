@@ -30,7 +30,7 @@ Welcome to the Burger Raja AI Bot repository! This project is a chatbot designed
 
 1. Clone the repository:
 
-   `git clone `
+   `git clone https://github.com/Geetika-Behl/Burger-Bot/tree/main `
    
    `cd burger-bot`
 
